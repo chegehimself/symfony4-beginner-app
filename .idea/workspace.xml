@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40cb3acf-dd65-4f34-a63d-5425391acb4e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.yaml" afterPath="$PROJECT_DIR$/config/routes.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/WelcomeController.php" afterPath="$PROJECT_DIR$/src/Controller/WelcomeController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/hello_page.html.twig" afterPath="$PROJECT_DIR$/templates/hello_page.html.twig" />
-    </list>
+    <list default="true" id="40cb3acf-dd65-4f34-a63d-5425391acb4e" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -341,15 +336,15 @@
       <option name="presentableId" value="Default" />
       <updated>1521398471001</updated>
       <workItem from="1521398472714" duration="10076000" />
-      <workItem from="1521495237935" duration="4346000" />
+      <workItem from="1521495237935" duration="4776000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14422000" />
+    <option name="totallyTimeSpent" value="14852000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13103953" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
