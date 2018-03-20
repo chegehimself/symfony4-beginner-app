@@ -2,6 +2,7 @@
 
 namespace App\Controller;
 
+use App\Mailer\Emailer;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
@@ -12,7 +13,7 @@ class WelcomeController extends AbstractController
     /**
      * @Route("/", name="welcome")
      */
-    public function index()
+    public function index(Emailer $emailer)
     {
         return $this->render('welcome/index.html.twig');
     }
