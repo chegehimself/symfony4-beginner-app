@@ -5,11 +5,7 @@
 {% block main %}
 
     <div>
-        Hello, {{ app.request.query.get('name') | default('CodeReviewVideos') }}!
-    </div>
-
-    <div>
-        My lovely variable: {{ some_variable_name | default('I am a lovely default value') }}
+        Hello, {{ person_name }}!
     </div>
 
 {% endblock %}

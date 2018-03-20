@@ -17,14 +17,16 @@ class WelcomeController extends AbstractController
         return $this->render('welcome/index.html.twig');
     }
     /**
-     * @Route("hello_page", name="hello_page")
+     * @Route("/hello/{name}", name="hello_page")
+     * @Route("/hello/{name}", name="hello_page", requirements={"name"="[A-Za-z]+"})
+     * @param string $name
+     *
+     * @return \Symfony\Component\HttpFoundation\Response
      */
-    public function hello(Request $request)
+    public function hello(string $name ='there')
     {
-        $someVar = $request->query->get('someVar');
-
         return $this->render('hello_page.html.twig', [
-            'some_variable_name' => $someVar,
+            'person_name' => $name,
         ]);
     }
 }
